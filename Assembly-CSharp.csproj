@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{346BE7B5-2089-1660-2A6B-7BEE310117D1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_2;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>D:/private/learn/U3D/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:/private/learn/U3D/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\EasyTouch\Plugins\EasyButton.cs" />
+     <Compile Include="Assets\EasyTouch\Plugins\EasyJoystick.cs" />
+     <Compile Include="Assets\EasyTouch\Plugins\EasyTouch.cs" />
+     <Compile Include="Assets\EasyTouch\Plugins\EasyTouchInput.cs" />
+     <Compile Include="Assets\EasyTouch\Plugins\Finger.cs" />
+     <Compile Include="Assets\EasyTouch\Plugins\Gesture.cs" />
+     <Compile Include="Assets\EasyTouch\Plugins\MonoSingleton.cs" />
+     <Compile Include="Assets\EasyTouch\Plugins\MovingJoystick.cs" />
+     <Compile Include="Assets\EasyTouch\Plugins\VirtualScreen.cs" />
+     <Compile Include="Assets\EasyTouch\Plugins\_C#-Event-Template\C_EasyButtonTemplate.cs" />
+     <Compile Include="Assets\EasyTouch\Plugins\_C#-Event-Template\C_EasyJoystickTemplate.cs" />
+     <Compile Include="Assets\EasyTouch\Plugins\_C#-Event-Template\C_EasyTouchTemplate.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\Common\EffectScriptSample.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\Common\NcDetachObject.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\Common\NcDisableDelayActive.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\Common\NcDontActive.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\Common\NcEffectAniBehaviour.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\Common\NcEffectBehaviour.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\Common\NcEffectInitBackup.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\Common\NcRandomTimerTool.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\Common\NcRepeatTimerTool.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\Common\NcTimerTool.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\Common\NcTransformTool.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\Common\NgInterpolate.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\Common\NgMath.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\Common\NsEffectManager.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\Common\NsRenderManager.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\Common\NsSharedManager.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcAddForce.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcAttachPrefab.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcAttachSound.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcAutoDeactive.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcAutoDestruct.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcBillboard.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcChangeAlpha.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcCurveAnimation.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcDelayActive.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcDetachParent.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcDuplicator.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcEffectFlying.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcParticleEmit.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcParticleSpiral.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcParticleSystem.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcRotation.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcSpriteAnimation.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcSpriteFactory.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcSpriteTexture.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcTilingTexture.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcTrailTexture.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcUvAnimation.cs" />
+     <Compile Include="Assets\IGSoft_Tools\CommonLib\GlobalScript\NgAnimation.cs" />
+     <Compile Include="Assets\IGSoft_Tools\CommonLib\GlobalScript\NgAssambly.cs" />
+     <Compile Include="Assets\IGSoft_Tools\CommonLib\GlobalScript\NgAsset.cs" />
+     <Compile Include="Assets\IGSoft_Tools\CommonLib\GlobalScript\NgAtlas.cs" />
+     <Compile Include="Assets\IGSoft_Tools\CommonLib\GlobalScript\NgEnum.cs" />
+     <Compile Include="Assets\IGSoft_Tools\CommonLib\GlobalScript\NgFile.cs" />
+     <Compile Include="Assets\IGSoft_Tools\CommonLib\GlobalScript\NgGUIDraw.cs" />
+     <Compile Include="Assets\IGSoft_Tools\CommonLib\GlobalScript\NgLayout.cs" />
+     <Compile Include="Assets\IGSoft_Tools\CommonLib\GlobalScript\NgMaterial.cs" />
+     <Compile Include="Assets\IGSoft_Tools\CommonLib\GlobalScript\NgObject.cs" />
+     <Compile Include="Assets\IGSoft_Tools\CommonLib\GlobalScript\NgSerialized.cs" />
+     <Compile Include="Assets\IGSoft_Tools\CommonLib\GlobalScript\NgString.cs" />
+     <Compile Include="Assets\IGSoft_Tools\CommonLib\GlobalScript\NgTexture.cs" />
+     <Compile Include="Assets\IGSoft_Tools\CommonLib\GlobalScript\NgUtil.cs" />
+     <Compile Include="Assets\IGSoft_Tools\CommonLib\Utility\NcDrawFpsRect.cs" />
+     <Compile Include="Assets\IGSoft_Tools\CommonLib\Utility\NcDrawFpsText.cs" />
+     <Compile Include="Assets\IGSoft_Tools\CommonLib\Utility\NcSafeTool.cs" />
+     <Compile Include="Assets\IGSoft_Tools\CommonLib\Utility\NcTickTimerTool.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolResource\UnityShader\FXMakerGrayscaleEffect.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolResource\UnityShader\FXMakerImageEffectBase.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\TestScript\FxmTestControls.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\TestScript\FxmTestMain.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\TestScript\FxmTestMouse.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\TestScript\FxmTestSetting.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\TestScript\FxmTestSimulate.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\TestScript\FxmTestSingleMain.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\TestScript\FxmTestSingleMouse.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FXMakerAsset.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FXMakerBackground.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FXMakerCapture.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FXMakerClipboard.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FXMakerControls.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FXMakerEffect.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FXMakerGizmo.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FXMakerHierarchy.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FXMakerLayout.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FXMakerMain.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FXMakerMouse.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FXMakerOption.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FXMakerPicking.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FXMakerQuickMenu.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FXMakerSimulate.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FXMakerTooltip.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FXMakerWireframe.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FxmFolderPopup.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FxmFolderPopup_NcCurveAnimation.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FxmFolderPopup_NcInfoCurve.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FxmFolderPopup_Prefab.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FxmFolderPopup_Texture.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FxmInfoBackground.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FxmInfoIndexing.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FxmMenuPopup.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FxmPopup.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FxmPopupManager.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FxmPopup_GameObject.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FxmPopup_Object.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FxmPopup_Transform.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMaker\ToolScript\ToolScript\FxmSpritePopup.cs" />
+     <Compile Include="Assets\IGSoft_Tools\FXMakerReplayScene\FxmReplayDemo.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\CraftSystem\Blueprint.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\CraftSystem\BlueprintDatabase.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\CraftSystem\CraftResultSlot.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\CraftSystem\CraftSystem.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\CraftSystem\CreateBlueprintDatabase.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\CraftSystem\LeftClick.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\CraftSystem\RightClick.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\ExampleScript\FirstPerson\FirstPersonController.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\ExampleScript\PlayerInventory.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\ExampleScript\RandomChestLootSystem.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\ExampleScript\RandomLootSystem.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\ExampleScript\WorkingStation.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Hotbar\HotBarProcess.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Hotbar\Hotbar.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Inventory\CloseInventory.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Inventory\DesignForInventory.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Inventory\DragInventory.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Inventory\EquipmentSystem.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Inventory\InputManager.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Inventory\Inventory.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Inventory\InventoryDesign.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Inventory\StorageInventory.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Item\ConsumeItem.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Item\CreateAttributeDatabase.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Item\CreateInputManager.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Item\CreateItemDatabase.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Item\DragItem.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Item\Item.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Item\ItemAttribute.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Item\ItemAttributeList.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Item\ItemDataBaseList.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Item\ItemOnObject.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Item\ItemType.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Item\PickUpItem.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Item\ShowTooltip.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Item\SlotCover.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Item\SplitItem.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Tooltip\Tooltip.cs" />
+     <Compile Include="Assets\kbengine_unity3d_plugins-0.9.3\Bundle.cs" />
+     <Compile Include="Assets\kbengine_unity3d_plugins-0.9.3\DataTypes.cs" />
+     <Compile Include="Assets\kbengine_unity3d_plugins-0.9.3\Dbg.cs" />
+     <Compile Include="Assets\kbengine_unity3d_plugins-0.9.3\Entity.cs" />
+     <Compile Include="Assets\kbengine_unity3d_plugins-0.9.3\EntityDef.cs" />
+     <Compile Include="Assets\kbengine_unity3d_plugins-0.9.3\Event.cs" />
+     <Compile Include="Assets\kbengine_unity3d_plugins-0.9.3\KBEMain.cs" />
+     <Compile Include="Assets\kbengine_unity3d_plugins-0.9.3\KBEngine.cs" />
+     <Compile Include="Assets\kbengine_unity3d_plugins-0.9.3\KBEngineArgs.cs" />
+     <Compile Include="Assets\kbengine_unity3d_plugins-0.9.3\Mailbox.cs" />
+     <Compile Include="Assets\kbengine_unity3d_plugins-0.9.3\Math.cs" />
+     <Compile Include="Assets\kbengine_unity3d_plugins-0.9.3\MemoryStream.cs" />
+     <Compile Include="Assets\kbengine_unity3d_plugins-0.9.3\Message.cs" />
+     <Compile Include="Assets\kbengine_unity3d_plugins-0.9.3\MessageReader.cs" />
+     <Compile Include="Assets\kbengine_unity3d_plugins-0.9.3\Method.cs" />
+     <Compile Include="Assets\kbengine_unity3d_plugins-0.9.3\NetworkInterface.cs" />
+     <Compile Include="Assets\kbengine_unity3d_plugins-0.9.3\ObjectPool.cs" />
+     <Compile Include="Assets\kbengine_unity3d_plugins-0.9.3\PacketReceiver.cs" />
+     <Compile Include="Assets\kbengine_unity3d_plugins-0.9.3\PacketSender.cs" />
+     <Compile Include="Assets\kbengine_unity3d_plugins-0.9.3\PersistentInofs.cs" />
+     <Compile Include="Assets\kbengine_unity3d_plugins-0.9.3\Profile.cs" />
+     <Compile Include="Assets\kbengine_unity3d_plugins-0.9.3\Property.cs" />
+     <Compile Include="Assets\kbengine_unity3d_plugins-0.9.3\ScriptModule.cs" />
+     <Compile Include="Assets\script\DialogProcess.cs" />
+     <Compile Include="Assets\script\EquipWeapon.cs" />
+     <Compile Include="Assets\script\GameEntity.cs" />
+     <Compile Include="Assets\script\ItemProcess.cs" />
+     <Compile Include="Assets\script\MapFollow.cs" />
+     <Compile Include="Assets\script\MouseLook.cs" />
+     <Compile Include="Assets\script\MoveController.cs" />
+     <Compile Include="Assets\script\SmoothFollow.cs" />
+     <Compile Include="Assets\script\UIHeadName.cs" />
+     <Compile Include="Assets\script\UI_AvatarState.cs" />
+     <Compile Include="Assets\script\UI_CloseState.cs" />
+     <Compile Include="Assets\script\UI_CreateAvatar.cs" />
+     <Compile Include="Assets\script\UI_ErrorHint.cs" />
+     <Compile Include="Assets\script\UI_Game.cs" />
+     <Compile Include="Assets\script\UI_LoginSystem.cs" />
+     <Compile Include="Assets\script\UI_MainUI.cs" />
+     <Compile Include="Assets\script\UI_SelectAvatar.cs" />
+     <Compile Include="Assets\script\UI_Target.cs" />
+     <Compile Include="Assets\script\UI_trade.cs" />
+     <Compile Include="Assets\script\Utility.cs" />
+     <Compile Include="Assets\script\World.cs" />
+     <Compile Include="Assets\script\clientApp.cs" />
+     <Compile Include="Assets\script\script_kbe\Account.cs" />
+     <Compile Include="Assets\script\script_kbe\Avatar.cs" />
+     <Compile Include="Assets\script\script_kbe\DroppedItem.cs" />
+     <Compile Include="Assets\script\script_kbe\Gate.cs" />
+     <Compile Include="Assets\script\script_kbe\Monster.cs" />
+     <Compile Include="Assets\script\script_kbe\NPC.cs" />
+     <Compile Include="Assets\script\script_kbe\interface\Combat.cs" />
+     <Compile Include="Assets\script\script_kbe\interface\GameObject.cs" />
+     <Compile Include="Assets\script\script_kbe\interface\SkillBox.cs" />
+     <Compile Include="Assets\script\script_kbe\interface\Trade.cs" />
+     <Compile Include="Assets\script\script_kbe\interface\if_Entity_error_use______git_submodule_update_____kbengine_plugins_______open_this_file_and_I_will_tell_you.cs" />
+     <Compile Include="Assets\script\script_kbe\limitCD\ConsumeLimitCD.cs" />
+     <Compile Include="Assets\script\script_kbe\skills\Skill.cs" />
+     <Compile Include="Assets\script\script_kbe\skills\SkillObject.cs" />
+     <Compile Include="Assets\uGUI Message Box Modal Dialog\Source\DialogResult.cs" />
+     <Compile Include="Assets\uGUI Message Box Modal Dialog\Source\MenuBox.cs" />
+     <Compile Include="Assets\uGUI Message Box Modal Dialog\Source\MessageBox.cs" />
+     <Compile Include="Assets\uGUI Message Box Modal Dialog\Source\MessageBoxButtons.cs" />
+     <Compile Include="Assets\uGUI Message Box Modal Dialog\Source\MessageBoxExample.cs" />
+     <Compile Include="Assets\uGUI Message Box Modal Dialog\Source\ModalBox.cs" />
+     <None Include="Assets\IGSoft_Resources\ToolResources\EffectShader\FXMaker_Mask Alpha Blended.shader" />
+     <None Include="Assets\IGSoft_Resources\ToolResources\EffectShader\FXMaker_Mask Cutout.shader" />
+     <None Include="Assets\IGSoft_Resources\ToolResources\EffectShader\FXMaker_Mask Additive Tint.shader" />
+     <None Include="Assets\IGSoft_Resources\ToolResources\EffectShader\FXMaker_Mask Additive.shader" />
+     <None Include="Assets\uGUI Message Box Modal Dialog\readme.txt" />
+     <None Include="Assets\IGSoft_Tools\Readme\Contact.txt" />
+     <None Include="Assets\IGSoft_Tools\Readme\Fx Maker Version.txt" />
+     <None Include="Assets\IGSoft_Tools\Readme\FX Maker VideoGuide Youtube.txt" />
+     <None Include="Assets\IGSoft_Tools\FXMaker\ToolScript\Temp\grayShader.shader" />
+     <None Include="Assets\IGSoft_Tools\FXMaker\ToolResource\UnityShader\FXMakerGrayscaleEffect.shader" />
+     <None Include="Assets\InventoryMaster\readme.txt" />
+     <None Include="Assets\IGSoft_Tools\FXMaker\ToolResource\EditorShader\LineColoredBlended.shader" />
+     <None Include="Assets\IGSoft_Resources\ToolResources\EffectShader\FXMaker_Mask Alpha Blended Tint.shader" />
+     <None Include="Assets\IGSoft_Tools\FXMaker\ToolResource\EditorShader\LineBackground.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/private/learn/U3D/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>D:/private/learn/U3D/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
